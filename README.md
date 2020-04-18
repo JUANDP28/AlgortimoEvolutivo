@@ -1,7 +1,7 @@
 # Aloritmo Evolutivo
 
 - Descrpción:
-  Proyecto de un algoritmo evolutivo que busca resolver el problema de las 8 reinas
+  - Proyecto de un algoritmo evolutivo que busca resolver el problema de las 8 reinas
 
 -Problematica:
   - El tamaño de la población total es de 100
@@ -14,12 +14,12 @@
   - Al final se remplazan los dos peore
   - La considicón de paro sera encontrar la solución o llegar a las 10,000 evaluaciones
   
-  Experiencia Educativa:
-  Inteligenia Artificial Aplicada
+- Experiencia Educativa:
+  - Inteligenia Artificial Aplicada
   
-  Univerdiad Veracruzana
-  Docente: Oscar Alonzo Ramirez
+- Univerdiad Veracruzana
+  - Docente: Oscar Alonzo Ramirez
   
-  Alumnos:
-  María José Hernández Molinos
-  Juan Carlos Suarez Hernández
+- Alumnos:
+  - María José Hernández Molinos
+  - Juan Carlos Suarez Hernández
