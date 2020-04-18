@@ -1,0 +1,13 @@
+C:\Users\juanc\Documents\GitHub\AlgortimoEvolutivo\AlgoritmoEvolutivo\bin\Debug\netcoreapp3.1\AlgoritmoEvolutivo.exe
+C:\Users\juanc\Documents\GitHub\AlgortimoEvolutivo\AlgoritmoEvolutivo\bin\Debug\netcoreapp3.1\AlgoritmoEvolutivo.deps.json
+C:\Users\juanc\Documents\GitHub\AlgortimoEvolutivo\AlgoritmoEvolutivo\bin\Debug\netcoreapp3.1\AlgoritmoEvolutivo.runtimeconfig.json
+C:\Users\juanc\Documents\GitHub\AlgortimoEvolutivo\AlgoritmoEvolutivo\bin\Debug\netcoreapp3.1\AlgoritmoEvolutivo.runtimeconfig.dev.json
+C:\Users\juanc\Documents\GitHub\AlgortimoEvolutivo\AlgoritmoEvolutivo\bin\Debug\netcoreapp3.1\AlgoritmoEvolutivo.dll
+C:\Users\juanc\Documents\GitHub\AlgortimoEvolutivo\AlgoritmoEvolutivo\bin\Debug\netcoreapp3.1\AlgoritmoEvolutivo.pdb
+C:\Users\juanc\Documents\GitHub\AlgortimoEvolutivo\AlgoritmoEvolutivo\obj\Debug\netcoreapp3.1\AlgoritmoEvolutivo.csprojAssemblyReference.cache
+C:\Users\juanc\Documents\GitHub\AlgortimoEvolutivo\AlgoritmoEvolutivo\obj\Debug\netcoreapp3.1\AlgoritmoEvolutivo.csproj.CoreCompileInputs.cache
+C:\Users\juanc\Documents\GitHub\AlgortimoEvolutivo\AlgoritmoEvolutivo\obj\Debug\netcoreapp3.1\AlgoritmoEvolutivo.AssemblyInfoInputs.cache
+C:\Users\juanc\Documents\GitHub\AlgortimoEvolutivo\AlgoritmoEvolutivo\obj\Debug\netcoreapp3.1\AlgoritmoEvolutivo.AssemblyInfo.cs
+C:\Users\juanc\Documents\GitHub\AlgortimoEvolutivo\AlgoritmoEvolutivo\obj\Debug\netcoreapp3.1\AlgoritmoEvolutivo.dll
+C:\Users\juanc\Documents\GitHub\AlgortimoEvolutivo\AlgoritmoEvolutivo\obj\Debug\netcoreapp3.1\AlgoritmoEvolutivo.pdb
+C:\Users\juanc\Documents\GitHub\AlgortimoEvolutivo\AlgoritmoEvolutivo\obj\Debug\netcoreapp3.1\AlgoritmoEvolutivo.genruntimeconfig.cache
