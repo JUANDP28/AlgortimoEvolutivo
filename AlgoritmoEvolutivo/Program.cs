@@ -121,10 +121,6 @@ namespace AlgoritmoEvolutivo {
                 padres.Add(ObtenerIndividuo(NumeroAleatorioPoblacion()));
             }
 
-            /*foreach (Individuo elemento in padres) {
-                Console.WriteLine("Calidad: " + elemento.GetCalidad());
-            }*/
-
             while (padres.Count != 2) {
 
                 int iterador = 1;
@@ -228,7 +224,11 @@ namespace AlgoritmoEvolutivo {
 
             if (ProbabilidadMutacion()) {
 
-                solucion1 [NumeroAleatorio()] = NumeroAleatorio();
+                int posición1 = NumeroAleatorio();
+                int valor = solucion1 [posición1];
+                int posición2 = NumeroAleatorio();
+                solucion1 [posición1] = solucion1 [posición2];
+                solucion1 [posición2] = valor;
             }
 
             int [] solucion2 = new int [8];
@@ -244,7 +244,11 @@ namespace AlgoritmoEvolutivo {
 
             if (ProbabilidadMutacion()) {
 
-                solucion2 [NumeroAleatorio()] = NumeroAleatorio();
+                int posición1 = NumeroAleatorio();
+                int valor = solucion2 [posición1];
+                int posición2 = NumeroAleatorio();
+                solucion2 [posición1] = solucion2 [posición2];
+                solucion2 [posición2] = valor;
             }
 
             Individuo hijo1 = new Individuo(solucion1);
@@ -342,6 +346,34 @@ namespace AlgoritmoEvolutivo {
         }
 
         /// <summary>
+        /// Metodo que Retorna el elemnto de Mejor Calidad
+        /// </summary>
+        /// <returns>el elemento con la mejor calidad</returns>
+        public int MejorCalidad () {
+
+            int iterador = 1;
+            int mejorCalidad = 0;
+
+            foreach (Individuo elemento in poblacion) {
+
+                if (iterador == 1) {
+
+                    mejorCalidad = elemento.GetCalidad();
+
+                } else {
+
+                    if (mejorCalidad > elemento.GetCalidad()) {
+
+                        mejorCalidad = elemento.GetCalidad();
+
+                    }
+                }
+                iterador++;
+            }
+            return mejorCalidad;
+        }
+
+        /// <summary>
         /// Metodo que inicializa el algoritmo
         /// </summary>
         /// <param name="args"></param>
@@ -355,9 +387,11 @@ namespace AlgoritmoEvolutivo {
             menu.EvaluarPoblacion();
 
             bool bandera = false;
+            int iterador = 0;
 
             while (bandera != true) {
 
+                iterador++;
                 menu.SeleccionarPadres();
                 menu.CruzaPadres();
                 menu.Sustitucion();
@@ -366,6 +400,7 @@ namespace AlgoritmoEvolutivo {
 
                     bandera = true;
                 }
+                Console.WriteLine("CALIDAD DE LA GENERACIÓN " + iterador + " : " + menu.MejorCalidad());
             }
 
             Console.WriteLine("NUMERO DE EVALUCIONES: " + menu.numeroEvaluaciones);
