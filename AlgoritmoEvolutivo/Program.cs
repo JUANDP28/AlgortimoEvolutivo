@@ -277,7 +277,11 @@ namespace AlgoritmoEvolutivo {
                 return false;
             }
         }
-
+        
+        /// <summary>
+        /// Metodo que remplaza los hijos por los dos
+        /// peores que existen en la población
+        /// </summary>
         public void Sustitucion () {
             while (poblacion.Count != 98) {
 
@@ -314,6 +318,10 @@ namespace AlgoritmoEvolutivo {
             hijos.Clear();
         }
 
+        /// <summary>
+        /// Metodoto que evalua si la solución existe en la población
+        /// </summary>
+        /// <returns></returns>
         public bool Solucion () {
             foreach (Individuo elemento in poblacion) {
 
@@ -333,6 +341,10 @@ namespace AlgoritmoEvolutivo {
             return false;
         }
 
+        /// <summary>
+        /// Metodo que inicializa el algoritmo
+        /// </summary>
+        /// <param name="args"></param>
         static void Main (string [] args) {
             Console.WriteLine("");
             Console.WriteLine("=============== SE INICIO EL ALGORITMO EVOLUTIVO ===============");
@@ -346,7 +358,6 @@ namespace AlgoritmoEvolutivo {
 
             while (bandera != true) {
 
-                //menu.EvaluarPoblacion();
                 menu.SeleccionarPadres();
                 menu.CruzaPadres();
                 menu.Sustitucion();
